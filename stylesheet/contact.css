@@ -55,6 +55,8 @@ a {
   font-weight: 700;
   color: #757575;
   padding: 2em 4em;
+  flex-basis: 50%;
+  text-align: center;
 }
 
 .list-item:hover {
@@ -224,6 +226,9 @@ button:active {
   .list-item a:hover {
     background-color: white;
     color: #000;
+  }
+  .list-item{
+    flex-basis: 25%; 
   }
   .list-item:last-child {
     background-color: #fff;
