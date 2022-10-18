@@ -22,8 +22,6 @@ body {
 .header-title {
   font-family: "Frank Ruhl Libre", serif;
   font-size: 3em;
-  
-  
   margin: 1em 0;
   font-weight: 900;
 }
@@ -51,7 +49,7 @@ body {
 
 .header-img,
 .card-img {
-
+  height: auto; 
   width: 100%;
   vertical-align: middle; /*made the border go away*/ 
 }
