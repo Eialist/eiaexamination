@@ -166,12 +166,12 @@ button:active {
   height: 12em;
   object-fit: cover;
   object-position: 0 1.5em;
-  margin: 0 2.8em; 
+  margin: 0 3.2em; 
 }
 .color-card-orange .card-img {
     max-width: 60%;
     object-position: 0 3em;
-    margin: 0 2.5em; 
+    margin: 0 2.6em; 
 }
 
 .card-body {
