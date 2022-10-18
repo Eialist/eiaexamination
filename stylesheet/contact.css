@@ -118,6 +118,7 @@ a {
 }
 
 .contact-btn {
+  background-color: #f6f6f6;
   padding: 1em 1em;
   border: none;
   box-shadow: 0 2px 1px rgb(176, 176, 176);
@@ -129,7 +130,7 @@ a {
   float: right;
   width: 40%;
   margin-top: 2em;
-  background-color: #f6f6f6;
+  color: #000;
 }
 
 .contact-address {
