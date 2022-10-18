@@ -108,6 +108,17 @@ body {
   display: none;
 }
 
+button:hover {
+    box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
+    background-color: #424243;
+    color: white;
+  }
+
+button:active {
+    box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
+    transform: translateY(4px);
+  }
+
 .div-text {
   line-height: 1.6em;
 }
