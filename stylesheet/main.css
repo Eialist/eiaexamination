@@ -391,9 +391,7 @@ button:active {
   }
 
   /* || main section */
-  .section-title:first-child {
-    font-size: ;
-  }
+  
   .page-section {
     display: flex;
     flex-wrap: wrap;
