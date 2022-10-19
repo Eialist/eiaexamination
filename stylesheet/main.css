@@ -46,7 +46,7 @@ body {
   background-color: rgb(255, 255, 255);
   color: #000;
   cursor: pointer;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .header-img,
@@ -308,7 +308,7 @@ button:active {
   
   /* || Header*/
   .header-img {
-    width: 55%; 
+    width: 53%; 
     max-height: 60%; 
     position: absolute; 
     bottom: 0; 
@@ -320,19 +320,22 @@ button:active {
     position: relative;
   }
   .header-title {
-    padding: 0.5em 0em 0em 1.05em; 
+    padding: 0.5em 0em 0em 1.8em; 
+    font-size: 3.5rem;
   }
   .header-text {
-    margin: 0em 5em 0em 4em; 
+    margin: 0em 12em 2em 6em; 
+    font-size: 1.06rem;
   }
   .header-btn {
-    margin: 5em 6em 0em 5em; 
+    margin: 4em 6em 0em 8em; 
+    padding: 1.3em 4em; 
   }
   
   /*|| navbar*/
   .page-nav {
     width: 100%;
-    height: 4em;
+    height: 6em;
   }
   .page-nav .nav-list {
     display: flex;
@@ -343,8 +346,8 @@ button:active {
   }
   .nav-list .list-item {
     width: 100%;
-    padding: 2em 1.2em;
-    font-size: 0.8rem;
+    padding: 2.5em 1.2em;
+    font-size: 1rem;
     text-align: center;
   }
   .list-div {
@@ -356,7 +359,7 @@ button:active {
   }
 
   .list-div > * {
-    height: 19em;
+    height: 25em;
     flex: 1 0 33%;
   }
 
