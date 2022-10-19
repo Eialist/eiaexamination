@@ -314,9 +314,6 @@ button:active {
     bottom: 0; 
     right: 4%;
   }
-  .header-div {
-    height: 18em; 
-  }
   .header-div-column {
     flex: 2 1 50%; 
     height: auto;
