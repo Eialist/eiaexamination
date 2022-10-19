@@ -14,6 +14,7 @@ body {
   letter-spacing: -0.02em;
 }
 /* || Header - all parts of the header*/
+
 .header-div-column:first-child {
   background-color: #c7ddea;
   padding: 1em 1.5em 0 1.5em;
@@ -51,7 +52,7 @@ body {
 .card-img {
   height: auto; 
   width: 100%;
-  vertical-align: middle; /*made the border go away*/ 
+  vertical-align: middle; /*made the thin border under the images go away*/ 
 }
 
 .header-div {
@@ -85,12 +86,12 @@ body {
   white-space: nowrap;
 }
 
-/* navigation */
+/* || navigation */
 
 .page-nav {
   background-color: rgb(232, 232, 232);
 }
-/* main section of the page */
+/* || main section of the page */
 
 .page-section {
   padding: 2em;
@@ -123,7 +124,7 @@ button:active {
   line-height: 1.6em;
 }
 
-/* Product Cards */
+/* || Product Cards */
 
 .page-section:first-child {
   background-color: #a9a19e;
@@ -141,7 +142,7 @@ button:active {
   width: 80%;
   margin: 0 auto;
   border-radius: 6px;
-  position: relative; /*here*/
+  position: relative;
   top: -2em; 
 }
 .color-card-yellow {
@@ -167,6 +168,7 @@ button:active {
   object-position: 0 1.5em;
   margin: 0 3.2em; 
 }
+/* Image was smaller than the other - fixed the problem */
 .color-card-orange .card-img {
     max-width: 60%;
     object-position: 0 3em;
@@ -198,7 +200,7 @@ button:active {
   text-align: center;
 }
 
-/* Bottom grid list */
+/* || Bottom grid list */
 
 .list-title {
   color: #000;
@@ -269,13 +271,13 @@ button:active {
   left: 0.25em;
 }
 
-/* bottom nav*/
+/* || bottom nav*/
 
 .bottom-nav {
   display: none;
 }
 
-/* footer gray box */
+/* || footer gray box */
 
 .gray-box {
   height: 15em;
@@ -297,7 +299,7 @@ button:active {
     display: flex;
   }
   
-  /*Header*/
+  /* || Header*/
   .header-img {
     width: 55%; 
     max-height: 65%; 
@@ -311,7 +313,7 @@ button:active {
     position: relative;
   }
   
-  /*navbar*/
+  /*|| navbar*/
   .page-nav {
     width: 100%;
     height: 4em;
@@ -353,7 +355,7 @@ button:active {
     color: #000;
   }
 
-  /*main section */
+  /* || main section */
   .page-section {
     display: flex;
     flex-wrap: wrap;
@@ -379,31 +381,28 @@ button:active {
     background-color: rgb(255, 255, 255);
     cursor: pointer;
   }
-  /* Responsive option for images but will create problems with them such as weird cuts and margin problems.
-  .product-card-wrapper {
-    max-width: 100%;
-    margin: 0 auto; 
-    display: flex;
-    gap: 2em; 
-  }*/ 
+   
   .product-card {
     width: 15em;
     position: relative;
     margin-top: -15em; 
     bottom: -15em; 
   }
+
   .page-section:last-child {
     padding: 10em; 
     padding-top: 15em; 
   }
+
   .section-title:first-child {
     padding-bottom: 0;
   }
+
   .section-title:last-of-type {
     margin: auto; 
   }
   
-  /*bottom-nav*/
+  /* || bottom-nav*/
   .bottom-nav {
     display: block;
     height: 4em; 
@@ -427,7 +426,7 @@ button:active {
     display: none;
   }
 }
-/* Images in the middle section */
+/* || Images in the middle section - this fixed the problem with the images stacking a bit when the screen size was between 768 and 1050px */
 @media screen and (max-width: 1050px) and (min-width: 769px) {
   .page-section {
     display: flex; 
@@ -437,7 +436,7 @@ button:active {
     margin: 2em auto;  
   }
 }
-/* For nav on mobiles */
+/* // For nav on mobiles */
 @media screen and (max-width: 767px) {
   .nav-list {
     width: 100%;
@@ -474,7 +473,7 @@ button:active {
 }
 
 
-/*Keyframes*/
+/* || Keyframes*/
 
 @keyframes slide-in {
   from {
