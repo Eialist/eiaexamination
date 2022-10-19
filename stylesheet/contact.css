@@ -9,7 +9,8 @@ html,
 body {
   width: 100%;
   height: 100vh;
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem; 
 }
 a {
   text-decoration: none;
@@ -25,18 +26,18 @@ a {
 
 .header-text {
   font-family: "Frank Ruhl Libre", serif;
-  padding: 2em 0.5em;
-  font-size: 2em;
-  margin: 1em 0;
+  font-size: 2.8em;
+  margin: 0.5em 0 0 0.5em;
   font-weight: bolder;
   color: #050607;
-  line-height: 1em;
+  position: absolute; 
+  top: 1.6em; 
+  left: 0.5em; 
 }
 
 .contact-header img {
   max-width: 50%;
-  object-fit: cover;
-  margin: 1em 2em 0 1em;
+  margin: 1em 1em 0 10em;
 }
 
 .page-nav,
@@ -52,6 +53,7 @@ a {
 }
 
 .list-item {
+  font-size: 0.8em;
   font-weight: 700;
   color: #757575;
   padding: 2em 4em;
@@ -99,8 +101,10 @@ a {
   padding-left: 0.5em;
   border: none;
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1rem;
+}
+::placeholder {
+  color:rgb(176, 176, 176);
 }
 
 .contact-message {
@@ -117,7 +121,7 @@ a {
   height: 12em;
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1rem;
   border: none;
   resize: none; 
   border-radius: 2px;
@@ -136,8 +140,9 @@ a {
   float: right;
   width: 40%;
   margin-top: 2em;
-  color: black;
+  color: #000;
   cursor: pointer;
+
 }
 button:hover {
   box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
@@ -200,13 +205,41 @@ button:active {
     background-color: #282828;
     margin: 0 auto;
   }
+  .contact-header {
+    text-align: center;
+  }
+  .header-text {
+    position: static; 
+    margin-left: 3em; 
+    margin-bottom: 1.15em; 
 
+  }
+  br {
+    display: none;
+  }
+  .contact-header img {
+    margin-top: 1em; 
+    margin-left: 6em; 
+    position: relative;
+    max-width: 20%;
+  }
+  .list-item {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .list-item a {
+    font-weight: 700;
+  }
   .contact-section {
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
     flex-basis: 100%;
-    padding: 5em 6em;
+    padding: 6em 3em;
+    gap: 3em; 
+  }
+  .contact-section .section-title {
+    font-size: 2.3rem;
   }
 
   .contact-btn {
@@ -217,7 +250,8 @@ button:active {
   .contact-form {
     display: flex;
     flex-direction: column;
-    flex: 1 1 60%;
+    flex: 1 1 55%;
+    margin-right: 4em; 
   }
 
   .contact-address {
