@@ -199,7 +199,6 @@ button:active {
 }
 
 @media screen and (min-width: 768px) {
-  html,
   body {
     width: 80%;
     background-color: #797979;
@@ -250,7 +249,7 @@ button:active {
     align-content: center;
     flex-basis: 100%;
     padding: 7em;
-    gap: 7em; 
+    gap: 5em; 
   }
   .contact-section .section-title {
     font-size: 3.5rem;
@@ -294,5 +293,18 @@ button:active {
     top: -18em;
     height: 15em;
     background-color: #757575;
+  }
+}
+/*working only in ipad portrait device*/
+
+@media screen and (min-device-width: 769px) {
+  body {
+    width: 100% !important;
+  }
+  .contact-section {
+    padding: 3em; 
+  }
+  .contact-header {
+    padding-left: 1em; 
   }
 }
