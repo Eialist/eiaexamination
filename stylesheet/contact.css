@@ -43,7 +43,7 @@ a {
 .page-nav,
 .nav-list {
   width: 100%;
-  height: 5em;
+  height: 12em;
   display: flex;
   flex-wrap: wrap;
   background-color: #ffffff;
@@ -157,7 +157,7 @@ button:active {
 }
 
 .contact-address {
-  width: 60%;
+  width: 80%;
   height: 15rem;
   padding: 2em 1em;
   background-color: #fab131;
@@ -166,7 +166,7 @@ button:active {
   flex-direction: column;
   gap: 0.8em;
   position: absolute;
-  top: -8em;
+  top: -7em;
   left: 10%;
   padding-left: 2em; 
 }
@@ -233,6 +233,7 @@ button:active {
     align-items: center;
     list-style: none;
     padding: 0 8em; 
+    height: 5em; 
   }
   .nav-list .list-item {
     width: 100%;
@@ -253,6 +254,9 @@ button:active {
   }
   .contact-section .section-title {
     font-size: 3.5rem;
+  }
+  .contact-address {
+    width: 60%;
   }
 
   .contact-btn {
@@ -297,7 +301,10 @@ button:active {
 }
 /*working only in ipad portrait device*/
 
-@media screen and (min-device-width: 769px) {
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1180px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
   body {
     width: 100% !important;
   }
