@@ -173,7 +173,7 @@ button:active {
 
 .address-header {
   font-family: "Frank Ruhl Libre", serif;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -270,7 +270,9 @@ button:active {
     flex: 1 1 40%;
     margin-right: 4em; 
   }
-
+  .address-header {
+    font-size: 3.5rem;
+  }
   .contact-address {
     position: relative;
     width: 26em;
@@ -303,7 +305,7 @@ button:active {
 
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1180px) 
+  and (max-device-width: 1500px) 
   and (-webkit-min-device-pixel-ratio: 2) {
   body {
     width: 100% !important;

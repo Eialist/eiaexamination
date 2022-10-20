@@ -23,13 +23,14 @@ body {
 .header-title {
   font-family: "Frank Ruhl Libre", serif;
   font-size: 3em;
-  margin: 1em 0 0.5em 0 ;
+  margin-top: 1.3em;
+  margin-right: 1em;  
   font-weight: 900;
 }
 .header-text {
   line-height: 1.6em;
-  margin: 1em 0;
-  font-size: 0.9rem;
+  margin: 1.5em 0;
+  font-size: 1rem;
   color: rgb(87, 91, 96);
 }
 .white-text {
@@ -320,24 +321,19 @@ button:active {
     height: auto;
     position: relative;
   }
-  /*.header-title {
-    padding: 0.5em 0em 0em 1.8em; 
-    font-size: 3.5rem;
+  .header-title {
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 3.5em;
+    margin-top: 1.5em;
+    margin-right: 1.5em;  
+    font-weight: 900;
   }
-  .header-text {
-    width: 18em; 
-    margin: 0em 0em 2em 6em; 
-    font-size: 1.06rem;
-  }
-  .header-btn {
-    margin: 2em 6em 0em 8em; 
-    padding: 1.3em 4em; 
-  }*/
+
   .header-text {
     width: 18em; 
   }
   .header-div-column:nth-child(1) {
-    padding-left: 7em; 
+    padding-left: 6em; 
   }
   /*|| navbar*/
   .page-nav {
@@ -406,7 +402,7 @@ button:active {
   }
   .section-container {
     display: flex;
-    gap: 7em; 
+    gap: 8em; 
     margin: 4em; 
   }
   .section-div {
@@ -416,22 +412,38 @@ button:active {
     display: block;
     padding: 1.2em 3.5em;
     border: none;
-    box-shadow: 0 2px 1px rgb(176, 176, 176);
+    box-shadow: 0 2px 2px rgb(119, 119, 119);
     border-radius: 50px;
     text-transform: uppercase;
-    margin: 6em 0;
+    margin: 4em 0;
     font-weight: 700;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: #000;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
   }
+
+  .section-title {
+    font-size: em;
+    line-height: 0.9em;
+  }
+  .div-text {
+    font-size: 1.2rem;
+  }
    
   .product-card {
-    width: 15em;
+    width: 26%;
     position: relative;
     margin-top: -15em; 
     bottom: -15em; 
+  }
+
+  .card-img {
+    max-width: 45%;
+    height: 12em;
+    object-fit: cover;
+    object-position: 0 1.5em;
+    margin: 0 4.5em; 
   }
 
   .page-section:last-child {
@@ -535,7 +547,7 @@ button:active {
 
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1180px) 
+  and (max-device-width: 1500px) 
   and (-webkit-min-device-pixel-ratio: 2)  {
   body {
     width: 100% !important;
