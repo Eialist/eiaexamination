@@ -46,7 +46,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   background-color: #ffffff;
-  white-space: nowrap;
 }
 
 .nav-list {
