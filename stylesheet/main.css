@@ -31,6 +31,7 @@ body {
   line-height: 1.6em;
   margin: 1.5em 0;
   font-size: 1rem;
+  font-weight: ;
   color: rgb(87, 91, 96);
 }
 .white-text {
@@ -430,7 +431,7 @@ button:active {
     line-height: 0.9em;
   }
   .div-text {
-    font-size: 1.4em;
+    font-size: 1em;
   }
    
   .product-card {
