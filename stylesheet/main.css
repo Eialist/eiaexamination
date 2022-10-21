@@ -83,6 +83,9 @@ body {
   color: rgb(59,56,55);
   font-size: 1rem;
 }
+.header-div p:first-of-type {
+  font-size: 0.7em;
+}
 
 .header-div a {
   font-family: "Frank Ruhl Libre", serif;
@@ -377,9 +380,10 @@ button:active {
     font-size: 1.4em; /* here */
     color:rgb(87, 91, 96);
     height: 18em;  
+    line-height: 1.3em;
   }
   .list-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     height: 100%;
     justify-content: center;
@@ -461,7 +465,8 @@ button:active {
 }
 
   .page-section:last-child {
-    padding: 12em; 
+    padding: 20em; 
+    padding-bottom: 10em;
     padding-top: 13em; 
   }
 
@@ -567,7 +572,7 @@ button:active {
     width: 100% !important;
   }
   .header-div-column:nth-child(1) {
-    padding-left: 4em; 
+    padding-left: 6em; 
   }
   .section-container {
     gap: 3em; 
