@@ -31,7 +31,6 @@ body {
   line-height: 1.6em;
   margin: 1.5em 0;
   font-size: 1rem;
-  font-weight: ;
   color: rgb(87, 91, 96);
 }
 .white-text {
@@ -48,6 +47,7 @@ body {
   background-color: rgb(255, 255, 255);
   color: #000;
   cursor: pointer;
+  font-family: "Fira Sans", sans-serif;
   font-size: 0.8rem;
 }
 
@@ -311,8 +311,8 @@ button:active {
   
   /* || Header*/
   .header-img {
-    width: 53%; 
-    max-height: 60%; 
+    width: 49%; 
+    max-height: 55%; 
     position: absolute; 
     bottom: 0; 
     right: 4%;
@@ -324,17 +324,20 @@ button:active {
   }
   .header-title {
     font-family: "Frank Ruhl Libre", serif;
-    font-size: 3.5em;
+    font-size: 3vw;
     margin-top: 1.5em;
     margin-right: 1.5em;  
     font-weight: 900;
+  }
+  .header-div p:first-of-type {
+    font-size: 1.2em;
   }
 
   .header-text {
     width: 18em; 
   }
   .header-div-column:nth-child(1) {
-    padding-left: 6em; 
+    padding-left: 9em; 
   }
   /*|| navbar*/
   .page-nav {
@@ -424,6 +427,7 @@ button:active {
     color: #000;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
+    font-family: "Fira Sans", sans-serif;
   }
 
   .section-title {
@@ -431,7 +435,7 @@ button:active {
     line-height: 0.9em;
   }
   .div-text {
-    font-size: 1em;
+    font-size: 1.2em;
   }
    
   .product-card {
@@ -486,7 +490,7 @@ button:active {
   }
 
   .bottom-nav p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     font-weight: 700;
   }
   .thin-gray-box {
@@ -560,6 +564,9 @@ button:active {
   and (-webkit-min-device-pixel-ratio: 2)  {
   body {
     width: 100% !important;
+  }
+  .header-div-column:nth-child(1) {
+    padding-left: 2em; 
   }
   .section-container {
     gap: 3em; 
