@@ -330,11 +330,12 @@ button:active {
     font-weight: 900;
   }
   .header-div p:first-of-type {
-    font-size: 1.2em;
+    font-size: 0.8em;
   }
 
   .header-text {
-    width: 18em; 
+    width: 18em;
+    font-size: 1.1em; 
   }
   .header-div-column:nth-child(1) {
     padding-left: 9em; 
