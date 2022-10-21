@@ -324,7 +324,7 @@ button:active {
   }
   .header-title {
     font-family: "Frank Ruhl Libre", serif;
-    font-size: 3vw;
+    font-size: 3.5;
     margin-top: 1.5em;
     margin-right: 1.5em;  
     font-weight: 900;
@@ -567,7 +567,7 @@ button:active {
     width: 100% !important;
   }
   .header-div-column:nth-child(1) {
-    padding-left: 2em; 
+    padding-left: 4em; 
   }
   .section-container {
     gap: 3em; 
