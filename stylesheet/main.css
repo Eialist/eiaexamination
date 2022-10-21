@@ -195,7 +195,7 @@ button:active {
 .card-text {
   color:rgb(142,142,142);
   line-height: 1.5em;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -369,9 +369,12 @@ button:active {
   .list-item-ordered {
     justify-content: center;
     align-items: center;
+    font-size: 1.4em; /* here */
+    color:rgb(87, 91, 96);
+    height: 18em;  
   }
   .list-title {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     display: flex;
     height: 100%;
     justify-content: center;
@@ -452,7 +455,7 @@ button:active {
 }
 
   .page-section:last-child {
-    padding: 10em; 
+    padding: 12em; 
     padding-top: 13em; 
   }
 
@@ -548,7 +551,7 @@ button:active {
   }
 }
 
-/*working only in ipad portrait device*/
+/*for ipads and smaller screens*/
 
 @media only screen 
   and (min-device-width: 768px) 
