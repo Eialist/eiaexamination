@@ -424,7 +424,7 @@ button:active {
   }
 
   .section-title {
-    font-size: em;
+    font-size: 2.5em;
     line-height: 0.9em;
   }
   .div-text {
@@ -445,6 +445,12 @@ button:active {
     object-position: 0 1.5em;
     margin: 0 4.5em; 
   }
+
+  .color-card-orange .card-img {
+    max-width: 60%;
+    object-position: 0 3em;
+    margin: 0 3.5em; 
+}
 
   .page-section:last-child {
     padding: 10em; 
